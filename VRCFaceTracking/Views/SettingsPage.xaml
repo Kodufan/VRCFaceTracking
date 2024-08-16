@@ -217,7 +217,7 @@
                                                 
                                                 <!-- Right alligned text -->
                                                 <TextBlock Grid.Column="1" Text="{x:Bind contributions}" Foreground="{ThemeResource TextFillColorSecondaryBrush}" TextAlignment="Right"/>
-                                                <TextBlock Grid.Column="2" Text=" Contributions" Foreground="{ThemeResource TextFillColorSecondaryBrush}" TextAlignment="Right"/>
+                                                <TextBlock Grid.Column="2" Text="{x:Bind contribution_string}" Foreground="{ThemeResource TextFillColorSecondaryBrush}" TextAlignment="Right"/>
                                             </Grid>
                                         </DataTemplate>
                                     </ItemsControl.ItemTemplate>
